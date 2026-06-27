@@ -1,0 +1,12 @@
+stress-ng: info:  [2767] setting to a 3 mins run per stressor
+stress-ng: info:  [2767] dispatching hogs: 4 iomix
+stress-ng: info:  [2767] note: /proc/sys/kernel/sched_autogroup_enabled is 1 and this can impact scheduling throughput for processes not attached to a tty. Setting this to 0 may improve performance metrics
+stress-ng: info:  [2769] iomix: using 256M file system space per stressor instance (total 1G of 51.29G available file system space)
+stress-ng: metrc: [2767] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [2767]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [2767] iomix              7075     21.81      4.97      2.18       324.33         990.64
+stress-ng: info:  [2767] skipped: 0
+stress-ng: info:  [2767] passed: 4: iomix (4)
+stress-ng: info:  [2767] failed: 0
+stress-ng: info:  [2767] metrics untrustworthy: 0
+stress-ng: info:  [2767] successful run completed in 21.83 secs
